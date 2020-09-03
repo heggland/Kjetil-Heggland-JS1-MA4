@@ -1,0 +1,55 @@
+body {
+  padding-top: 10vh 0 10vh;
+}
+
+.main {padding-top: 15vh;}
+
+.error {
+  color: red;
+  display: none;
+}
+
+.col {
+  text-align: center;
+}
+
+.results, .game-details {
+  padding: 2vh 0 2vh;
+}
+
+.result {background-color: grey;}
+
+.game {
+  background-color: lightgrey;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid darkred;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
